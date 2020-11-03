@@ -1,38 +1,69 @@
-.App {
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+ 
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.content h1{
+	color:blue;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.content h5{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 26px;
+
+}
+ 
+.content img{
+  margin-top: 10px;
+  display: block;
+  margin-left: 80px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+
+.content p{
+  margin-top: 30px;
+  margin-left: 25px; 
+  width: 80%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.about-name{
+  margin-top: 40px;
+  font-size: 24px;
+  margin-left: 20px;
+   
+}
+
+.text{
+
+  font-weight: bold;
   text-align: center;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper img{
+  margin-top: 30px;
+  display: block;
+  margin-left: 90px;
+  margin-right: auto;
+  width: 40%;
 }
