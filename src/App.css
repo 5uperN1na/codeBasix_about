@@ -14,7 +14,7 @@
   }
 }
 
-.content h1{
+/* .content h1{
 	color:blue;
   font-size: 40px;
   margin-left: 20px;
@@ -25,37 +25,37 @@
   margin-left: 20px;
   font-size: 26px;
 
-}
- 
+} */
+/*  
 .content img{
   margin-top: 10px;
   display: block;
   margin-left: 80px;
   margin-right: 10px;
   width: 50%;
-}
+} */
 
 
-.content p{
+/* .content p{
   margin-top: 30px;
   margin-left: 25px; 
   width: 80%;
   text-align: justify;
   font-size: 18px;
-}
+} */
 
-.about-name{
+/* .about-name{
   margin-top: 40px;
   font-size: 24px;
   margin-left: 20px;
    
-}
+} */
 
 
-.wrapper img{
+/* .wrapper img{
   margin-top: 30px;
   display: block;
   margin-left: 90px;
   margin-right: auto;
   width: 40%;
-}
+} */
